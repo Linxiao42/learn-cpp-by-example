@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// 第一种遍历方法
+// 第一种遍历方法，使用size判断结束条件
 void traverse1(vector<int> &vec)
 {
     cout << "第一种遍历方法: ";
@@ -13,7 +13,7 @@ void traverse1(vector<int> &vec)
     cout << endl;
 }
 
-// 第二种遍历方法
+// 第二种遍历方法， 使用!=判断结束条件
 void traverse2(vector<int> &vec)
 {
     cout << "第二种遍历方法: ";
@@ -25,7 +25,7 @@ void traverse2(vector<int> &vec)
     cout << endl;
 }
 
-// 第三种遍历方法
+// 第三种遍历方法，使用<判断结束条件
 void traverse3(vector<int> &vec)
 {
     cout << "第三种遍历方法: ";
@@ -37,7 +37,7 @@ void traverse3(vector<int> &vec)
     cout << endl;
 }
 
-// 第四种遍历方法
+// 第四种遍历方法，使用while循环
 void traverse4(vector<int> &vec)
 {
     cout << "第四种遍历方法: ";
