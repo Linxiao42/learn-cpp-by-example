@@ -3,4 +3,4 @@ project(learn_cpp_by_example)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(vector src/stl/vector/vector扩容与缩减.cpp)
+add_executable(deque src/stl/deque/从deque中删除元素.cpp)
