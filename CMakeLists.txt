@@ -3,4 +3,4 @@ project(learn_cpp_by_example)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(deque src/stl/deque/从deque中删除元素.cpp)
+add_executable(forward_list src/stl/list/forward_list基本使用.cpp)
