@@ -3,4 +3,4 @@ project(learn_cpp_by_example)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(forward_list src/stl/list/forward_list基本使用.cpp)
+add_executable(multimap src/stl/map/multimap基本用法.cpp)
