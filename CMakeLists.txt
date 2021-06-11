@@ -3,4 +3,4 @@ project(learn_cpp_by_example)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(sort src/stl/set/自定义关联式容器排序规则.cpp)
+add_executable(map src/stl/unordered_map/从unordered_map中删除元素.cpp)
