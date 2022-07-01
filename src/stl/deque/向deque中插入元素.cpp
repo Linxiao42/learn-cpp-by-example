@@ -113,7 +113,7 @@ void showDifference()
 
     cout << "emplace:" << endl;
     deque<Test> d2;
-    d2.emplace(d2.begin(), 1);
+    d2.emplace(d2.begin(), Test(1));
 }
 
 int main()

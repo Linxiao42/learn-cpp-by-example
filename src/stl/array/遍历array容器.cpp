@@ -3,13 +3,13 @@
 
 using namespace std;
 
-// 使用begin()/end()遍历
+// 使用begin()/end()遍历，返回头元素和尾元素+1指针
 void traverse1(array<int, 5> &arr)
 {
     auto first = arr.begin();
     auto last = arr.end();
 
-    // 与此同时，还可以使用全局的begin()和end()函数从容器中获取构造器
+    // 与此同时，还可以使用全局的begin()和end()函数从容器中获取迭代器
     // auto first = std::begin(arr);
     // auto last = std::end(arr);
 
@@ -21,7 +21,7 @@ void traverse1(array<int, 5> &arr)
     cout << endl;
 }
 
-// 使用cbegin()/cend()遍历,遍历过程中无法修改元素
+// 使用cbegin()/cend()遍历，返回的是const类型的正向迭代器，遍历过程中无法修改元素
 void traverse2(array<int, 5> &arr)
 {
     auto first = arr.cbegin();
